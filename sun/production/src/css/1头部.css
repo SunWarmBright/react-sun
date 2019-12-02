@@ -1,0 +1,292 @@
+body{
+  background-color: #f4f5fa;
+}
+.head {
+  position: fixed;
+  width: 100%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background: linear-gradient(to right, #64acfe, #9e6ff9);
+}
+.head h1 {
+  display: inline-block;
+  font-size: 22px;
+  line-height: 64px;
+}
+.head span {
+  float: right;
+  margin-left: 30px;
+  line-height: 64px;
+}
+.head span img {
+  vertical-align: middle;
+}
+
+
+
+
+.headportrait {
+  width: 100%;
+}
+.headportrait img {
+  width: 78px;
+  display: block;
+  margin: 20px auto 0;
+}
+.headportrait p {
+  margin-top: 5px;
+  text-align: center;
+  color: #8c93ae;
+}
+.headportrait p:first-child {
+  font-size: 14px;
+}
+.headportrait p:last-child {
+  font-size: 12px;
+}
+
+
+
+
+.menu {
+  position: fixed;
+
+  bottom: 0;
+  width: 192px;
+  height: calc(100vh - 64px);
+  background: #3e495f;
+}
+.menu .listNavigation {
+  position: absolute;
+  top: 160px;
+  width: 100%;
+  color: #fdf5f0;
+}
+.menu .listNavigation svg.nav-indicator {
+  float: right;
+  margin: 10px;
+}
+.menu .listNavigation svg.nav-indicator path {
+  fill: none;
+  stroke: #aaa;
+  stroke-linecap: round;
+  stroke-width: 2;
+  stroke-dasharray: 29 40;
+  transition: stroke-dashoffset 0.3s;
+}
+.menu .listNavigation li {
+  line-height: 40px;
+  font-size: 15px;
+}
+.menu .listNavigation .LevelTList li{
+  padding-left: 44px;
+}
+.menu .listNavigation .LevelOList {
+  
+  border-bottom: 1px solid #4a556b;
+  overflow: hidden;
+  height: 40px;
+  transition: height 0.3s;
+}
+.menu .listNavigation .LevelOList span {
+  font-size: 20px;padding-left: 44px;
+  background-image: url(../img/chaxun.png) no-repeat;
+}
+.menu .listNavigation .LevelTList {
+  color: #626572;
+  background: #eeeeee;
+}
+.menu .listNavigation .unfold {
+  height: auto;
+  background: #64acfe;
+}
+.menu .listNavigation .unfold svg.nav-indicator path {
+  stroke-dashoffset: -15;
+}
+
+
+
+
+.main {
+  float: right;
+  margin-top: 64px;
+  width: calc(100% - 192px);
+  
+}
+.main .title{
+  margin-left: 25px;
+  font-size: 25px;
+  line-height: 76px;
+  color: #595980;
+  font-weight: 600;
+}
+.main .topnumber div>span:nth-child(1){
+  margin-left: 55px;
+}
+.main .topnumber div>span:nth-child(2){
+  float: right;
+  margin-right: 55px;
+}
+.main .topnumber div>span:nth-child(2) span{
+  font-size: 20px;
+}
+.main .topnumber .tnu{
+  width: 97%;
+  margin: 10px auto 0;
+}
+.main .topnumber .tnu div{
+  margin-top: 10px;
+  width: 15%;
+  height: 137px;
+  display: inline-block;
+  background-color: #ffffff;
+  margin-left: 2%;
+  border-radius: 5px;
+  text-align: center;
+}
+.main .topnumber .tnu div:nth-child(1){
+  margin-left:0px;
+}
+.main .topnumber .tnu div p:nth-child(1){
+  font-size: 30px;
+  line-height: 90px;
+}
+.main .topnumber .tnu div p:nth-child(2){
+  font-size: 14px;
+}
+.main .topnumber .bnu{
+  width: 97%;
+  border-radius: 5px;
+  margin: 15px auto 0;
+  height: 400px;
+  background-color: #fff;
+}
+.main .topnumber .bnu p{
+  padding: 20px;
+}
+
+
+
+.main .datalist{
+  background-color: #fff;
+  width: 97%;
+  border-radius: 5px;
+  margin: 15px auto 0;
+  height: 550px;
+  background-color: #fff;
+  overflow:hidden;
+
+}
+.main .datalist .search{
+  width: 95%;
+  margin: 50px auto 0;
+  border: 2px #ebf2f9 solid;
+  font-size: 14px;
+  border-radius: 5px;
+  /* height: 77px; */
+}
+.main .datalist .search span{
+  line-height: 77px;
+  margin: 0 10px 0 50px;
+}
+.main .datalist .search select,.main .datalist .search input{
+  width: 130px;
+  border: 1px #ebf2f9 solid;
+  border-radius: 5px;
+  height: 30px;
+}
+.main .datalist .search>div{
+  display: inline-block;
+}
+.main .datalist .search input{
+  width: 195px;
+}
+.main .datalist  button{
+  width: 64px;
+  height: 30px;
+  background-color: #67adfc;
+  border: 0px;
+  border-radius: 5px;
+  margin-left: 50px;
+  color: #f6f9ff;
+}
+
+
+
+.main .datalist>button{
+  float: right;
+  margin: 10px 3% 10px 0;
+  /* line-height: 30px; */
+  
+}
+.main .datalist>button>img{
+  width: 16px;
+  vertical-align: middle;
+}
+
+
+
+
+.main .datalist .search .list li:nth-child(1){
+  background-color: #f4f5fa;
+  color: #30354a;
+  font-weight: 600; 
+}
+.main .datalist .search .list li{
+  display:table;
+  width: 100%;height: 10px;
+  border-bottom: 1px #ecf2f7 solid;
+}
+.main .datalist .search .list li div{
+  vertical-align: middle;
+  display: table-cell;
+  width: 8%;
+  padding-left: 15px;
+  height: 40px;
+}
+
+/* .main .datalist .search .list li div{
+  width: 10%;
+  
+} 
+.main .datalist .search .list li div:nth-child(3){
+  width: 10%;
+}
+.main .datalist .search .list li div:nth-child(4){
+  width: 10%;
+}
+.main .datalist .search .list li div:nth-child(5){
+  width: 10%;
+}
+.main .datalist .search .list li div:nth-child(6){
+  width: 10%;
+}
+.main .datalist .search .list li div:nth-child(7){
+  width: 10%;
+} */
+.main .datalist .search .list li div:last-child{
+  width: 10%;
+}
+.main .datalist .search .list li div:last-child {
+  padding-left: 0px;
+}
+.main .datalist .search .list li div:last-child img{
+  width: 25px;
+  padding: 0 5%;
+}
+.main .datalist .search .list li div:last-child img:last-child{
+  width: 20px;
+}
+
+
+
+.main .addinformation{
+  background-color: #fff;
+  width: 97%;
+  border-radius: 5px;
+  margin: 15px auto 0;
+  height: 550px;
+  background-color: #fff;
+  
+}

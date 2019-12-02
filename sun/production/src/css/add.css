@@ -1,0 +1,66 @@
+
+.add input[type="text"]{
+    width: 300px;
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 3px;
+    border: 1px rgb(107, 102, 102) solid;
+
+}
+.add .leftadd{
+    display: inline-block;
+    margin: 30px 0 0 30px;
+    width: 500px;
+}
+.add .leftadd>div{
+    margin: 10px 0px;
+}
+.add .leftadd>div span{
+    display: inline-block;
+    width: 70px;
+    margin-right: 10px;
+    
+    text-align: right;
+
+}
+.add .leftadd>div select{
+    width: 100px;
+    height: 30px;
+}
+.add .rightadd .xuanke div{
+    width: 420px;
+    margin-left: 80px;
+}
+.add .rightadd .xuanke span{
+    text-align: center;
+    background-color: rgb(100, 96, 96);
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 70px;
+    margin-right: 10px;
+    
+}
+.xuanke p{
+
+    padding-left: 40px;
+}
+.add .leftadd>div form {
+    display: inline-block;
+}
+.rightadd{
+    width: 500px;
+    /* float: right; */
+    display: inline-block;
+    margin: 40px 0 0 30px;
+    vertical-align: top;
+}
+.add .anniu button:first-child{
+    margin: 0
+}
+.add .anniu{
+    width: 178px;
+    margin: 30px auto 30px;
+}
+.add .rightadd .xuanke .xuan {
+    background-color: red;
+}
